@@ -1,0 +1,186 @@
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  main {
+    margin: 8px;
+  }
+  
+  header {
+    width: 100%;
+  
+    height: 80px;
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  
+  .card {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 44%;
+    height: 300px;
+    color: #742305;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 60px;
+    background-color: #fef8e6;
+    margin: 15px;
+    align-items: center;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    background-image: url("/assets/imgs/honey.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    width: 100%;
+  }
+  
+  .text {
+    text-align: center;
+    color: #742305;
+    font-size: 0.9em;
+  }
+  
+  .content {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .text span {
+    font-weight: bold;
+    color: #742305;
+    font-size: 1.2em;
+  }
+  
+  .price {
+    color: #742305;
+    font-size: 1.1em;
+    order: 5;
+    align-self: center;
+  }
+  
+  .addToCart {
+    background-color: #fdd96e;
+    color: #742305;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 33px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  h1 {
+    color: #742305;
+    font-weight: 900;
+  }
+  
+  .navigationBar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #fef8e6;
+  }
+  .buttons {
+    background-color: #fdd96e;
+    color: #742305;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px auto;
+    text-align: center;
+    height: 30px;
+    font-weight: bold;
+    align-self: center;
+    width: 100px;
+    height: 39px;
+  }
+  .bigButton {
+    display: flex;
+    height: 65px;
+    width: 100px;
+    background-color: #fdd96e;
+    color: #742305;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px auto;
+    align-items: center;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bigButton img {
+    height: 25px;
+  }
+  .bigButton div {
+    font-size: 18px;
+  }
+  
+  .article {
+    color: #742305;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fef8e6;
+    margin-top: 25px;
+    border-radius: 20px;
+  }
+  
+  .article img {
+    width: 100%;
+  
+    margin-right: 0.5rem;
+    margin-top: 25px;
+  }
+  .article p {
+    margin-right: 20px;
+    font-size: 1rem;
+  }
+  .clearfix {
+    display: block;
+    clear: both;
+  }
+
+  @media screen and (min-width: 480px) {
+    header {
+        margin: 0 auto;
+        width: 80%;
+        height: 260px;
+        margin-top: 20px;
+      }
+    
+      .navigationBar {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 60px;
+      }
+      .bigButton {
+        flex-basis: 56%;
+        order: -1;
+        margin: 0 22%;
+        margin-top: 10px;
+        gap: 26px;
+        justify-content: center;
+        height: 87px;
+      }
+      .buttons {
+        width: 150px;
+        height: 60px;
+      }
+      
+  }
